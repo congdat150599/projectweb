@@ -1,0 +1,374 @@
+*{margin: 0; padding: 0;} 
+
+body{
+	background-color: red;
+}
+.color-header{
+    background-color:white;
+    width: 100%;
+}
+
+#search-book{
+    margin-left:3.5rem;
+    width:35rem;
+    outline:none;
+}
+#search-book:focus{
+    box-shadow: 1px 1px 5px 1px rgb(226, 221, 221) inset;
+}
+.cart{
+    height:3.5rem;
+    margin:2rem;
+    margin-left:3rem;
+}
+.cart-menu{
+    position: relative;
+}
+.cart-menu-content{
+    position: absolute;
+    display:none;
+    z-index: 1;
+    background-color:rgb(206, 245, 232);
+    box-shadow: 0px 8px 16px 0px rgba(30, 31, 30, 0.2);
+    padding:20px;
+    border-radius:10px;
+    width: 300px;
+    height: 300px;
+    
+}
+.cart-menu:hover .cart-menu-content{
+    display:block;
+}
+.login-logout{
+    margin:2.5rem;
+}
+.login-logout >a{
+    color:black;
+    padding:10px;
+}
+.login-logout >a:hover{
+    color:rgb(104, 103, 103);
+}
+.color-menu{
+    background-color:green;
+}
+.btnmenu{
+    margin-left:4rem;
+    background-color:green;
+    color:white;
+    border:none;
+}
+.menu-dropdown{
+    margin:10px;
+    color:white;
+}
+.menu-dropdown-content{
+    background-color:rgb(206, 245, 232);
+    width: 15rem;
+    margin-top:0.6rem;
+    padding:10px;
+    border-radius:5px;
+    box-shadow: 0px 10px 20px 0px rgba(30, 31, 30, 0.2);
+    transition:all 0.75s ;
+}
+.menu-dropdown-content .dropdown-item:hover{
+    background-color:rgb(163, 206, 206);
+}
+.menu-dropdown-content a:hover{
+    color:rgb(104, 76, 148);
+}
+.btnmenu:focus{
+    outline:none;
+}
+.menu-dropdown-content a{
+    display:block;
+    text-decoration: none;
+    color:black;
+}
+.menu-book{
+    margin-left:1rem;
+    margin-top:-3px;
+}
+.link-dropdown{
+    position:relative;
+}
+.dropdown-content{
+    display: none;
+    position:absolute;
+    z-index: 1;
+    padding:10px;
+    border-radius:5px;
+    box-shadow: 0px 10px 20px 0px rgba(30, 31, 30, 0.2);
+    background-color:rgb(206, 245, 232);
+    margin-left:12rem;
+    margin-top:-2.35rem;
+    width: 15rem;
+}
+.dropdown-content a{
+    padding-left:20px;
+}
+.link-dropdown:hover .dropdown-content{
+    display:block;
+}
+.dropdown-content a:hover{
+    background-color:rgb(163, 206, 206);  
+}
+.icon-hotline{
+    margin-right: 5rem;
+}
+.hotline{
+    margin-left:5px;
+    margin-top:-3px;
+}
+.text-hotline{
+    margin:10px;
+    color:white;
+}
+/*khoi san pham dau*/
+.book-sell{
+    margin-top:2rem;
+}
+.book-sell a{
+    color: green;
+    margin-right: 5%;
+}
+.book-sell hr{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.book-sell .tuasach{
+    margin-left: 3%;
+}
+.book-sell span{
+    margin-left: 1.5rem;
+}
+.book-sell .xemthem{
+    margin-right: 2.9%;
+}
+.book-sell .row{
+    margin-top:3rem;
+}
+.book-sell-content{
+    padding:5%;
+    width: 50%;
+}
+.book-sell-content a{
+    color:black;
+    font-weight: bold;
+}
+.book-sell-content a:hover{
+    color:green;
+}
+
+.book-sell-img{
+    width: 50%;
+}
+.book-sell-top{
+    position: relative;
+}
+.book-sell-img img{
+    position: absolute;
+    box-shadow: 0px 2px 10px 1px rgba(41, 40, 40, 0.4); 
+    top: -20px;
+    z-index: 1;
+}
+.discount{
+    position: absolute;
+    top: -2.5rem;
+    left: -1rem;
+    background-color:red;
+    color:white;
+    padding:10px 5px;
+    border-radius:50%;
+    z-index: 2;
+    opacity:0.7;
+}
+/*create 18/10/2019*/
+.background-book-sell .noidung span{
+    padding-bottom: 30%;
+    margin-bottom: 0px;
+}
+.background-book-sell .price {
+    padding-bottom: -40px;
+}
+.khoigia{
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0;
+}
+/*het 18/10/2019*/
+/*create 17/10/2019*/
+.card {
+    position: relative;
+}
+.book-sell .container{
+    width: 100%;
+}
+.container .card hr{
+    margin-bottom: 5%;
+}
+.book-new .container .khungsanpham{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.background-book-sell hr{
+    margin-bottom: 90%;
+}
+/*het 17/10/2019*/
+.background-book-sell{
+    background-color: white;
+    padding:10px;
+    box-shadow: 0px 10px 10px 0px rgba(139, 112, 112, 0.4); 
+    cursor: pointer;
+    height: 100%;
+}
+.card .background-book-sell .price {
+    margin-bottom: 5%;
+
+}
+.background-book-sell:hover{
+    border:1px solid green;
+}
+.price-entry{
+    text-decoration: line-through;
+    color:rgb(143, 134, 134);
+    font-size: 15px;
+}
+.price-present{
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    padding-left:10px;
+}
+/*het khoi san pham dau*/
+/*khoi san pham thu hai*/
+.book-new{
+    margin-top:3rem;
+}
+.book-new a{
+    color:green;
+    margin-right: 5%;
+}
+.book-new hr{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.book-new .xemthem{
+    margin-right: 2.9%;
+}
+.book-new .tuasach{
+    margin-left: 3%;
+}
+.book-new .row{
+    margin-top:3rem;
+}
+.book-new .book-sell-content a{
+    color:black;
+}
+.book-new .book-sell-content a:hover{
+    color:green;
+}
+/*het khoi san pham thu 2*/
+/*hieu ung hien thi noi dung khi hover chuot len sp*/
+.background-book-sell {
+position: relative;
+width: 100%;
+}
+.image {
+display: block;
+width: 100%;
+height: auto;
+}
+.overlay {
+position: absolute;
+bottom: 100%;
+left: 0;
+right: 0;
+background-color:#ffe066;
+overflow: hidden;
+width: 100%;
+height:0;
+transition: .5s ease;
+}
+.background-book-sell:hover .overlay {
+bottom: 0;
+height: 100%;
+opacity: 0.5;
+}
+.text {
+white-space: nowrap; 
+color: white;
+font-size: 50px;
+position: absolute;
+overflow: hidden;
+top: 70%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
+/*het hieu ung*/
+.header-footer{
+    background-color:green;
+    margin-top:3rem;
+    padding:50px;
+    color:white;
+}
+.chiso{
+   margin-bottom:1px;
+}
+.body-footer{
+   background-color: white;
+   margin-top:3rem;
+}
+.body-footer-customer{
+   margin-left:6rem;
+}
+.body-footer .list-unstyled a{
+   color:black;
+}
+.body-footer-icon{
+   border-radius:50%;
+   padding:5px 8px;
+   background-color: blue;
+}
+.ins{
+    background-color: rgba(245, 92, 92, 0.671);
+    padding:6px 7px;
+}
+.youtu{
+    background-color:red;
+}
+.body-footer-icon i{
+   color:white;
+}
+#dichvu:hover{
+   color:green;
+}
+/*button back to top*/
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: #f5f5f5;
+    color: #33bbff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: #33ff77;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+#content {
+    height: 2000px;
+}
